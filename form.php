@@ -9,7 +9,7 @@
 <body>
     <h2 class="main-title">Formulir Pendaftaran Service </h2>
     <div class="container">
- <div class="kotak-form">
+<div class="kotak-form">
         <form action="proses.php" method="POST">
             
                 <label for="">Nama Pelanggan</label>
@@ -23,9 +23,9 @@
                 
                 <label for="" >Tanggal Booking:</label>
                 <input type="date" name="tanggal_booking" required placeholder="Tanggal Booking">
-           
+            
                 <label for="">Deskripsi Service</label>
-                 <textarea name="jenis_service" required placeholder="Keluhan..."></textarea>
+                <textarea name="jenis_service" required placeholder="Keluhan..."></textarea>
                 
             
                 <label style= "margin-top:15px;">
@@ -38,4 +38,3 @@
     </div>
 </body>
 </html>
-   
